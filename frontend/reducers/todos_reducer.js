@@ -39,13 +39,13 @@ export default todosReducer;
 // const newTodos = [
 //     {
 //         id: 1,
-//         title: "wash car",
+//         title: "wash truck",
 //         body: "with soap",
 //         done: false
 //     },
 //     {
 //         id: 2,
-//         title: "wash dog",
+//         title: "wash mouse",
 //         body: "with shampoo",
 //         done: true
 //     },
