@@ -1,25 +1,19 @@
-import React from 'react'
+import React from 'react';
+import TodoListItem  from '../todo_list/todo_list_item';
 
 
 
 export default (props) => {
-  constructor(props) {
-    super(props)
-    this.state = {
-
-
-    }
-  }
-
-  this.setState
-
-  debugger
+  
   return (
-    
-    <>
-    
+    <div>
     <h3>Todo List goes here!</h3>
-
-    </>
+    <ul>
+    {props.todos.map(todo => {
+      return <TodoListItem todo={todo} key={todo.id}/>
+      //  return <li key={todo.id}>{todo.title}</li>
+    })}
+    </ul>
+    </div>
   )
 }
