@@ -4,6 +4,7 @@ import React from 'react';
 
 class TodoForm extends React.Component {
     constructor(props) {
+        // debugger
         super(props)
         this.state = {
             title: "", 
@@ -15,6 +16,7 @@ class TodoForm extends React.Component {
         this.updateBody = this.updateBody.bind(this);
         this.updateDone = this.updateDone.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        // debugger
     }
 
     updateTitle(e) {
@@ -37,7 +39,7 @@ class TodoForm extends React.Component {
 
 
     render() {
-        
+        // debugger
         return (
             <form onSubmit={this.handleSubmit}> 
                 <h1>Add ToDo</h1>
