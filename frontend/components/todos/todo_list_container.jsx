@@ -10,6 +10,7 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = dispatch => {
+  debugger
   return {
     receiveTodo: (todo) => {
       return dispatch(receiveTodo(todo))
